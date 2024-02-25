@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(183, 210, 211);
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+.nav-part-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+#nav h3{
+    font-size: 16px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav i{
+    font-size: 17px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#nav h1{
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#nav button{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+}
+
+#btn2{
+    border: none !important;
+    background-color: orangered;
+    color: #fff;
+}
+
+#main>h1{
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    height: 450px;
+    width: 320px;
+    object-fit: cover;
+    /* object-position: top; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+#img1{
+    rotate: 10deg;
+}
